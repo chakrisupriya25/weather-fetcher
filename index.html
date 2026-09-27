@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Weather Fetcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Fetcher</h1>
+    <form id="searchForm">
+      <input id="cityInput" type="text" placeholder="Enter city name" required>
+      <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather" class="card hidden"></div>
+    <p class="note">This demo uses OpenWeatherMap. Replace the API key in <code>script.js</code>.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
